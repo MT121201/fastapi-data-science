@@ -10,6 +10,7 @@ from C6.blog_demo.database import create_all_tables, get_async_session
 from C6.blog_demo.models import Post, Comment
 from C6.blog_demo import schemas
 
+from
 
 @contextlib.asynccontextmanager
 async def lifespan(app: FastAPI):
